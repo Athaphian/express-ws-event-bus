@@ -1,0 +1,28 @@
+{
+	"name": "express-ws-event-bus",
+	"version": "1.0.0",
+	"description": "Simplified auto-reconnecting two-way event bus between backend and frontend to be used with Express.",
+	"main": "index.js",
+	"author": {
+		"name": "Bas Biesheuvel",
+		"email": "athaphian@gmail.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/Athaphian/express-ws-event-bus/blob/master/LICENSE-MIT"
+		}
+	],
+	"dependencies": {
+		"express-ws": "^3.0.0",
+		"express": "^4.16.2"
+	},
+	"peerDependencies": {
+		"express": "^4.16.2"
+	},
+	"keywords": [
+		"express",
+		"websocket",
+		"event bus"
+	]
+}
