@@ -7,6 +7,16 @@
 		"name": "Bas Biesheuvel",
 		"email": "athaphian@gmail.com"
 	},
+	"contributors": [
+		{
+			"name": "Bas Biesheuvel",
+			"email": "athaphian@gmail.com"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com:Athaphian/express-ws-event-bus.git"
+	},
 	"licenses": [
 		{
 			"type": "MIT",
