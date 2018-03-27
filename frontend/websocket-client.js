@@ -2,7 +2,7 @@ const getWebsocket = function(endpoint) {
 	return new Promise(function(resolve, reject) {
 		let handlers = new Map();
 
-		sendInternalEvent = event => {
+		const sendInternalEvent = event => {
 			const handler = handlers.get('ewseb');
 			if (handler) {
 				handler(event);
